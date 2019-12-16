@@ -10,6 +10,15 @@
 		A882C80723A783CA00BE0485 /* EZColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A882C7FD23A783CA00BE0485 /* EZColor.framework */; };
 		A882C80C23A783CA00BE0485 /* EZColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A882C80B23A783CA00BE0485 /* EZColorTests.swift */; };
 		A882C80E23A783CA00BE0485 /* EZColor.h in Headers */ = {isa = PBXBuildFile; fileRef = A882C80023A783CA00BE0485 /* EZColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A882C81E23A783F400BE0485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A882C81D23A783F400BE0485 /* AppDelegate.swift */; };
+		A882C82023A783F400BE0485 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A882C81F23A783F400BE0485 /* SceneDelegate.swift */; };
+		A882C82223A783F400BE0485 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A882C82123A783F400BE0485 /* ViewController.swift */; };
+		A882C82523A783F400BE0485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A882C82323A783F400BE0485 /* Main.storyboard */; };
+		A882C82723A783F600BE0485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A882C82623A783F600BE0485 /* Assets.xcassets */; };
+		A882C82A23A783F600BE0485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A882C82823A783F600BE0485 /* LaunchScreen.storyboard */; };
+		A882C83023A784AE00BE0485 /* EZColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A882C82F23A784AE00BE0485 /* EZColor.swift */; };
+		A882C83123A784AE00BE0485 /* EZColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A882C82F23A784AE00BE0485 /* EZColor.swift */; };
+		A882C83223A784AE00BE0485 /* EZColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A882C82F23A784AE00BE0485 /* EZColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		A882C80623A783CA00BE0485 /* EZColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A882C80B23A783CA00BE0485 /* EZColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZColorTests.swift; sourceTree = "<group>"; };
 		A882C80D23A783CA00BE0485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A882C81B23A783F400BE0485 /* EZColorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZColorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A882C81D23A783F400BE0485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A882C81F23A783F400BE0485 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A882C82123A783F400BE0485 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A882C82423A783F400BE0485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A882C82623A783F600BE0485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A882C82923A783F600BE0485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A882C82B23A783F600BE0485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A882C82F23A784AE00BE0485 /* EZColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A882C81823A783F400BE0485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +80,7 @@
 			children = (
 				A882C7FF23A783CA00BE0485 /* EZColor */,
 				A882C80A23A783CA00BE0485 /* EZColorTests */,
+				A882C81C23A783F400BE0485 /* EZColorExample */,
 				A882C7FE23A783CA00BE0485 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +90,7 @@
 			children = (
 				A882C7FD23A783CA00BE0485 /* EZColor.framework */,
 				A882C80623A783CA00BE0485 /* EZColorTests.xctest */,
+				A882C81B23A783F400BE0485 /* EZColorExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +98,7 @@
 		A882C7FF23A783CA00BE0485 /* EZColor */ = {
 			isa = PBXGroup;
 			children = (
+				A882C82F23A784AE00BE0485 /* EZColor.swift */,
 				A882C80023A783CA00BE0485 /* EZColor.h */,
 				A882C80123A783CA00BE0485 /* Info.plist */,
 			);
@@ -84,6 +112,20 @@
 				A882C80D23A783CA00BE0485 /* Info.plist */,
 			);
 			path = EZColorTests;
+			sourceTree = "<group>";
+		};
+		A882C81C23A783F400BE0485 /* EZColorExample */ = {
+			isa = PBXGroup;
+			children = (
+				A882C81D23A783F400BE0485 /* AppDelegate.swift */,
+				A882C81F23A783F400BE0485 /* SceneDelegate.swift */,
+				A882C82123A783F400BE0485 /* ViewController.swift */,
+				A882C82323A783F400BE0485 /* Main.storyboard */,
+				A882C82623A783F600BE0485 /* Assets.xcassets */,
+				A882C82823A783F600BE0485 /* LaunchScreen.storyboard */,
+				A882C82B23A783F600BE0485 /* Info.plist */,
+			);
+			path = EZColorExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +178,23 @@
 			productReference = A882C80623A783CA00BE0485 /* EZColorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A882C81A23A783F400BE0485 /* EZColorExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A882C82C23A783F600BE0485 /* Build configuration list for PBXNativeTarget "EZColorExample" */;
+			buildPhases = (
+				A882C81723A783F400BE0485 /* Sources */,
+				A882C81823A783F400BE0485 /* Frameworks */,
+				A882C81923A783F400BE0485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZColorExample;
+			productName = EZColorExample;
+			productReference = A882C81B23A783F400BE0485 /* EZColorExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +207,12 @@
 				TargetAttributes = {
 					A882C7FC23A783CA00BE0485 = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					A882C80523A783CA00BE0485 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					A882C81A23A783F400BE0485 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -169,6 +232,7 @@
 			targets = (
 				A882C7FC23A783CA00BE0485 /* EZColor */,
 				A882C80523A783CA00BE0485 /* EZColorTests */,
+				A882C81A23A783F400BE0485 /* EZColorExample */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +252,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A882C81923A783F400BE0485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A882C82A23A783F600BE0485 /* LaunchScreen.storyboard in Resources */,
+				A882C82723A783F600BE0485 /* Assets.xcassets in Resources */,
+				A882C82523A783F400BE0485 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A882C83023A784AE00BE0485 /* EZColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +277,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A882C83123A784AE00BE0485 /* EZColor.swift in Sources */,
 				A882C80C23A783CA00BE0485 /* EZColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A882C81723A783F400BE0485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A882C82223A783F400BE0485 /* ViewController.swift in Sources */,
+				A882C81E23A783F400BE0485 /* AppDelegate.swift in Sources */,
+				A882C83223A784AE00BE0485 /* EZColor.swift in Sources */,
+				A882C82023A783F400BE0485 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +302,25 @@
 			targetProxy = A882C80823A783CA00BE0485 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A882C82323A783F400BE0485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A882C82423A783F400BE0485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A882C82823A783F600BE0485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A882C82923A783F600BE0485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A882C80F23A783CA00BE0485 /* Debug */ = {
@@ -340,6 +446,7 @@
 		A882C81223A783CA00BE0485 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QFC4ENLC4Y;
@@ -356,6 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ezbuy..EZColor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +472,7 @@
 		A882C81323A783CA00BE0485 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QFC4ENLC4Y;
@@ -388,6 +497,7 @@
 		A882C81523A783CA00BE0485 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QFC4ENLC4Y;
 				INFOPLIST_FILE = EZColorTests/Info.plist;
@@ -406,6 +516,7 @@
 		A882C81623A783CA00BE0485 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QFC4ENLC4Y;
 				INFOPLIST_FILE = EZColorTests/Info.plist;
@@ -415,6 +526,42 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ezbuy..EZColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A882C82D23A783F600BE0485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFC4ENLC4Y;
+				INFOPLIST_FILE = EZColorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezbuy..EZColorExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A882C82E23A783F600BE0485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QFC4ENLC4Y;
+				INFOPLIST_FILE = EZColorExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ezbuy..EZColorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +594,15 @@
 			buildConfigurations = (
 				A882C81523A783CA00BE0485 /* Debug */,
 				A882C81623A783CA00BE0485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A882C82C23A783F600BE0485 /* Build configuration list for PBXNativeTarget "EZColorExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A882C82D23A783F600BE0485 /* Debug */,
+				A882C82E23A783F600BE0485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
