@@ -1,0 +1,1 @@
+With EZColor, you can easily init UIColor with int or string value of hex.You can also generate random color with one line or create an UIImage with assigned size
