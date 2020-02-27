@@ -5,6 +5,8 @@
 //  Created by wangding on 2019/5/24.
 //
 
+#if canImport(UIKit)
+
 import UIKit
 
 extension UIColor {
@@ -61,3 +63,5 @@ extension UIColor {
         return image
     }
 }
+
+#endif
